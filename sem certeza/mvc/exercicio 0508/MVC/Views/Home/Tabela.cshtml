@@ -1,0 +1,31 @@
+﻿@model List<MVC.Models.Skate>
+@{
+    ViewBag.Title = "Tabela";
+
+}
+<main>
+    <table>
+        <thead>
+
+            <tr>
+                <td>Id</td>
+                <td>Nome</td>
+                <td>Modelo</td>
+                <td>Marca</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            @foreach (var pudim in Model)
+            {
+            <tr>
+                <th>@pudim.Id</th>
+                <th>@pudim.Nome</th>
+                <th>@pudim.Modelo</th>
+                <th>@pudim.Marca</th>
+            </tr>
+
+            }
+        </tbody>
+    </table>
+</main>

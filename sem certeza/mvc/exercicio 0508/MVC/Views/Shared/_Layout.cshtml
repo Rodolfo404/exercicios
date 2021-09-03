@@ -1,0 +1,18 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title style="color:azure">HavanLabs</title>
+</head>
+<body>
+    <header style="height: 100px; background: #000000; color:white; text-align: center; text-shadow: #ff0000;">
+        Olá</br>
+        Cadastre Algo</br>
+        @Html.ActionLink("Tabela", "Tabela", "Home")
+        @Html.ActionLink("Cadastro", "Cadastro", "Home")
+        @Html.ActionLink("Home", "Index", "Home")
+    </header>
+    <main>
+        @RenderBody()
+    </main>
+</body>
+</html>
