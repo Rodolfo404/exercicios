@@ -1,0 +1,13 @@
+.MuiSlider-root{
+    margin-top: 45px;
+}
+.MuiButtonBase-root{
+    margin-top: 100px;
+}
+.MuiDataGrid-root{
+    margin-top: 50px;
+}
+.MuiFormControlLabel-root{
+    width: 100%;
+    margin: 20px 0 25px;
+}

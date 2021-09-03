@@ -1,0 +1,29 @@
+
+jsx html <tags>
+prettier code formatter <identação>
+simple react snippets
+
+nx.create-w
+
+
+\\zuplae\instaladores
+
+
+cd(entrar no diretorio)
+cd .. (para voltar um diretorio)
+dir(listar o que tem no diretorio)
+"nome do arquivo" 
+
+visual studio gerenciar pacotes do nuget para a solucao
+npgsql
+protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        {
+            optionsBuilder.UseNpgsql("Server=localhost;Database=postgres;UserID=rod;Password=123@;Port=5432");
+        }
+using Microsoft.EntityFrameworkCore;(no Context e Repository)
+no Data(bibilioteca de dados)
+install-package microsoft.EntityFrameworkCore.SqlServer
+install-package microsoft.EntityFrameworkCore.Tools
+no ApiData(Api)
+install-package microsoft.EntityFrameworkCore.Design
+("Data Source=192.168.0.156;Initial Catalog=Produto;Persist Security Info=True;User ID=Rodolfo;Password=123321@")

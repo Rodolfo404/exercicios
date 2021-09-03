@@ -1,0 +1,20 @@
+﻿@model MVC.Models.Skate
+@{
+    ViewBag.Title = "Editando" + Model.Nome;
+}
+
+<div>
+    <legend>Edição de item</legend>
+    <form action="/Home/Editar" method="post">
+        @Html.Hidden("id", new { htmlAtributes = new { value = "@Model.Id"} })
+        <label for="nome">Nome: </label>
+        @Html.Editor("nome", new { htmlAtributes = new { value = "@Model.Nome" } })
+        <label for="modelo">Modelo: </label>
+        @Html.Editor("modelo", new { htmlAtributes = new { value = "@Model.Modelo" } })
+        <label for="marca">Marca: </label>
+        @Html.Editor("marca", new { htmlAtributes = new { value = "@Model.Marca" } })
+        <input type="submit" name="salvar" value="Salvar" />
+
+    </form>
+</div>
+

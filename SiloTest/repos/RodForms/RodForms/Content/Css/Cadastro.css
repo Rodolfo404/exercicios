@@ -1,0 +1,45 @@
+﻿.form-item {
+    text-align: center;
+}
+
+input {
+    width: 30%;
+    padding: 0.5%;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+label {
+    color: black;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 2px 2px 5px black;
+}
+
+a {
+    border: 2px solid #000;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15%;
+    width: 10%;
+    margin: auto;
+    cursor: pointer;
+}
+
+.btnSalvar {
+    width: 10%;
+    margin-left: 550px;
+    cursor: pointer;
+}
+
+
+body {
+    background-image: url('../IMG/choc.jpg');
+    background-size: cover;
+}

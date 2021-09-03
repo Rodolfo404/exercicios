@@ -1,0 +1,22 @@
+192.168.0.156
+MVC
+
+
+FTPDeploys
+123321@
+
+SiteTeste
+141
+123321@
+
+
+
+
+ipconfig /all
+4433
+
+
+filezilla para aprir ftps
+gerenciamento do computador
+usuarios e grupos
+direito usuario -> novo usuario

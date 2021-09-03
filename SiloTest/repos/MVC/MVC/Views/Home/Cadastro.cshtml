@@ -1,0 +1,20 @@
+﻿>
+@{
+    ViewBag.Title = "Cadastro";
+
+}
+<h1>Cadastro</h1>
+<div>
+    <form action="/Home/Salvar" method="post">
+    <label for="id">Id: </label>
+    @Html.Editor("id")
+    <label for="nome">Nome: </label>
+    @Html.Editor("nome")
+    <label for="modelo">Modelo: </label>
+    @Html.Editor("modelo")
+    <label for="marca">Marca: </label>
+    @Html.Editor("marca")
+    <input type="submit" name="salvar" value="Salvar" />
+   
+    </form>
+</div>

@@ -1,0 +1,3 @@
+index
+npm init 
+npm install axion
